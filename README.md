@@ -72,7 +72,7 @@ Over-refusal falls by 16 points (paired p = 0.021). Two random directions move i
 5. **Does a prompt's probe score predict its behaviour?** No, and the sign is reversed (AUROC 0.29–0.41). Steering shows the direction does *cause* a change of register.
 6. **Format at small scale, as in Singh & Chaudhary?** Yes, format dominates. We didn't test other sizes.
 
-## Open research question: does the internal "test" signal drive behaviour?
+## does the internal "test" signal drive behaviour?
 
 Partly, and not the way expected. Steering along P-source causally changes behaviour, while random directions don't. But the effect is a **change of register**: a first-person apologising assistant against a third-person reference text. It isn't "looking tested, so be careful". Pushing toward "test" *reduces* over-refusal. The content-controlled framing direction showed a small, non-significant shift toward caution. This fits the literature's finding that probe signals and behaviour are only loosely coupled (Nayan et al. 2026, Heidari et al. 2026), and adds a concrete mechanism at 4B.
 
