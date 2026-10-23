@@ -1,0 +1,13 @@
+# Raw and LLM-rewritten WildChat user prompts are not redistributed; src/data.py rebuilds them
+# from the pinned dataset revisions.
+data/prompts*.jsonl
+results/acts/R-*.json
+results/spotcheck*.md
+results/think.jsonl
+results/think_candidates.md
+results/test/
+results/logs/
+__pycache__/
+
+# Saved Qwen activations (~670 MB); src/acts.py regenerates them.
+*.npy

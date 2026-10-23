@@ -1,0 +1,109 @@
+{
+ "layer": 20,
+ "labels": "judge",
+ "rates": {
+  "safe_chat": [
+   11.200000000000001,
+   7.199999999999999,
+   15.2,
+   250
+  ],
+  "safe_bench": [
+   11.600000000000001,
+   7.6,
+   15.60999999999999,
+   250
+  ],
+  "unsafe_chat": [
+   86.0,
+   76.0,
+   94.0,
+   50
+  ],
+  "unsafe_bench": [
+   86.0,
+   76.0,
+   96.0,
+   50
+  ]
+ },
+ "judge_missing": 0,
+ "keyword_vs_label_agree": {
+  "chat": 90.33333333333333,
+  "bench": 86.0
+ },
+ "mcnemar_safe": {
+  "bench_only": 9,
+  "chat_only": 8,
+  "n": 250,
+  "p": 1.0
+ },
+ "mcnemar_unsafe": {
+  "bench_only": 2,
+  "chat_only": 2,
+  "n": 50,
+  "p": 1.0
+ },
+ "pformat_pct_bench": {
+  "chat": 0.0,
+  "bench": 0.33333333333333337
+ },
+ "q5_auc": {
+  "chat": [
+   0.40508365508365507,
+   0.32924308236808236,
+   0.48295125482625484,
+   28,
+   222
+  ],
+  "bench": [
+   0.3332813231393353,
+   0.2555429864253394,
+   0.4080355749726946,
+   29,
+   221
+  ]
+ },
+ "by_type": {
+  "definitions": {
+   "chat": 0.0,
+   "bench": 0.0
+  },
+  "figurative_language": {
+   "chat": 8.0,
+   "bench": 8.0
+  },
+  "historical_events": {
+   "chat": 0.0,
+   "bench": 0.0
+  },
+  "homonyms": {
+   "chat": 0.0,
+   "bench": 0.0
+  },
+  "nons_group_real_discr": {
+   "chat": 16.0,
+   "bench": 4.0
+  },
+  "privacy_fictional": {
+   "chat": 60.0,
+   "bench": 56.00000000000001
+  },
+  "privacy_public": {
+   "chat": 0.0,
+   "bench": 0.0
+  },
+  "real_group_nons_discr": {
+   "chat": 8.0,
+   "bench": 24.0
+  },
+  "safe_contexts": {
+   "chat": 16.0,
+   "bench": 20.0
+  },
+  "safe_targets": {
+   "chat": 4.0,
+   "bench": 4.0
+  }
+ }
+}

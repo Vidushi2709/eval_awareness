@@ -1,0 +1,13 @@
+# Tested on Windows 11, Python 3.11.9, RTX 3050 6 GB (CUDA 12.1). Install torch from the CUDA index first:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+transformers==4.57.6
+accelerate==1.12.0
+bitsandbytes==0.49.2
+datasets==4.5.0
+huggingface_hub==0.36.0
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+# Also needed, outside pip: Ollama with `llama3:latest` (rewriter in data.py, judge in judge.py).

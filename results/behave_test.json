@@ -1,0 +1,55 @@
+{
+ "layer": 20,
+ "rates": {
+  "safe_chat": [
+   0.0,
+   0.0,
+   0.0,
+   2
+  ],
+  "safe_bench": [
+   0.0,
+   0.0,
+   0.0,
+   2
+  ],
+  "unsafe_chat": [
+   NaN,
+   NaN,
+   NaN,
+   0
+  ],
+  "unsafe_bench": [
+   NaN,
+   NaN,
+   NaN,
+   0
+  ]
+ },
+ "mcnemar_safe": {
+  "bench_only": 0,
+  "chat_only": 0,
+  "n": 2,
+  "p": 1.0
+ },
+ "mcnemar_unsafe": {
+  "bench_only": 0,
+  "chat_only": 0,
+  "n": 0,
+  "p": 1.0
+ },
+ "pformat_pct_bench": {
+  "chat": 0.0,
+  "bench": 0.0
+ },
+ "q5_auc": {
+  "chat": "too few refusals (0 refused, 2 not)",
+  "bench": "too few refusals (0 refused, 2 not)"
+ },
+ "by_type": {
+  "homonyms": {
+   "chat": 0.0,
+   "bench": 0.0
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "E-bench-rw tqa70": true,
+ "E-bench-rw tqa98": true,
+ "E-bench-rw tqa22": false,
+ "E-chat-rw tqa1": false,
+ "E-chat-rw tqa98": false,
+ "E-chat-rw tqa22": false,
+ "R-chat-rw wc91": false,
+ "R-chat-rw wc162": false,
+ "SYN-chat syn91": false,
+ "SYN-chat syn7": false,
+ "SYN-chat syn109": false
+}

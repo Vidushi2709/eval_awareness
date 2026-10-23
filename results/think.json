@@ -1,0 +1,29 @@
+{
+ "E-bench-rw": {
+  "n": 25,
+  "candidates": 3,
+  "confirmed": 2,
+  "finished_thinking": 2
+ },
+ "E-chat-rw": {
+  "n": 25,
+  "candidates": 3,
+  "confirmed": 0,
+  "finished_thinking": 4
+ },
+ "R-chat-rw": {
+  "n": 25,
+  "candidates": 2,
+  "confirmed": 0,
+  "finished_thinking": 1
+ },
+ "SYN-chat": {
+  "n": 25,
+  "candidates": 3,
+  "confirmed": 0,
+  "finished_thinking": 0
+ },
+ "fisher_E-bench-rw_vs_R-chat": 0.24489795918367346,
+ "fisher_E-chat-rw_vs_R-chat": 1.0,
+ "fisher_SYN-chat_vs_R-chat": 1.0
+}
