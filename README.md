@@ -4,7 +4,7 @@ A study of **evaluation awareness**: whether a model can tell a test question fr
 
 **Short answer: mostly no.** What looks like "knowing it's a test" in a 4B model is mostly a **style switch**. Test-looking input pulls the model into a textbook or reference-text voice. It doesn't look like the model thinking "I am being watched, so I should be careful".
 
-The full log, with every run, failure, pre-registration and verdict, is in [`WRITEUP.md`](WRITEUP.md).
+A plain-language report is in [`WRITEUP.md`](WRITEUP.md). The full log, with every run, failure, pre-registration and verdict, is in [`LOG.md`](LOG.md).
 
 ## Why this matters
 
@@ -23,7 +23,7 @@ If a model behaves differently when a prompt *looks like a test*, safety benchma
 | | |
 |---|---|
 | Model studied | `Qwen/Qwen3-4B`, 4-bit NF4, thinking off unless stated |
-| Data | MMLU and TruthfulQA (eval source), WildChat-1M (real source), XSTest (behaviour); revisions pinned in `WRITEUP.md` |
+| Data | MMLU and TruthfulQA (eval source), WildChat-1M (real source), XSTest (behaviour); revisions pinned in `LOG.md` |
 | Rewriter and judge | `llama3:latest` (8B) via Ollama, a different model family from the one studied |
 | Prompt sets | 6 sets of 200; 14 items excluded after a hand spot check (95/100 passed) |
 | Probes | P-naive (benchmark format against real chat), P-source (eval against real, both formats), P-format, and a framing direction from minimal pairs |
@@ -108,4 +108,4 @@ python src/think.py && python src/think_score.py
 python src/steer.py && python src/judge.py results/steer.jsonl results/steer_judge.jsonl && python src/steer_score.py
 ```
 
-Seed 0 throughout. Dataset revisions are pinned in the scripts that load them (`src/data.py`, `src/behave.py`, `src/steer.py`) and listed in `WRITEUP.md`. The datasets aren't redistributed here.
+Seed 0 throughout. Dataset revisions are pinned in the scripts that load them (`src/data.py`, `src/behave.py`, `src/steer.py`) and listed in `LOG.md`. The datasets aren't redistributed here.
